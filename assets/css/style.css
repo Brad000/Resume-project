@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:100,200,300,400,500,600,700');
+
+/*---------------Jumbotron------------------*/
+
+.landing-page {
+    height: 490px;
+    padding: 0;
+    margin: 0;
+}
+
+/*-----------Padding/Margins/Text-----------*/
+
+.sub-headings {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+
+}
+
+
+/*-----------------Footer-------------------*/
+
+footer {
+    background-color: #222629;
+    color: #86c232;
+    min-height: 100px;
+    margin: 0;
+    font-size: 18px;
+}
+
+.contact-button {
+    width: 130px;
+    border: 0;
+    height: 40px;
+    margin: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #fafafa;
+    background: #474b4f;
+    transition: background 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out;
+    -webkit-transition: background 0.5s ease-in-out;
+    -o-transition: background 0.5s ease-in-out;
+}
+
+.contact-button:hover {
+    background-color: #86c232
+}
+
+.footer-headings {
+    margin-top: 15px;
+}
+
+.personal-info-text {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.footer-headings p {
+    margin: 0;
+}
+
+.cv-link {
+    margin-left: 5px;
+    font-size: 16px;
+    color: #86c232;
+    transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -webkit-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+}
+
+.cv-link:hover {
+    color: #61842f;
+}
