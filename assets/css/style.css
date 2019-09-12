@@ -1,75 +1,109 @@
 @import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:100,200,300,400,500,600,700');
 
-/*---------------Jumbotron------------------*/
+/*-----------------Nav----------------------*/
 
-.landing-page {
-    height: 490px;
-    padding: 0;
-    margin: 0;
+.nav-container {
+  
+height: 100vh;
 }
 
-/*-----------Padding/Margins/Text-----------*/
+.background {
+  height: 100vh;
+  width: 100vw;
+}
+
+.nav-item {
+  height: 70px;
+  background-color: #000201;
+  text-align: center;
+}
+
+.fa-home, .fa-user, .fa-archive, .fa-briefcase{
+  font-size: 50px;
+  color: #474b4f;
+  padding: 10px;
+}
+
+/*-----------------Text-------------------*/
 
 .sub-headings {
-    font-family: 'Red Hat Display', sans-serif;
-    font-weight: 400;
-
+  padding-top: 10px;
+  text-decoration: underline;
 }
 
 
 /*-----------------Footer-------------------*/
 
+
 footer {
-    background-color: #222629;
-    color: #86c232;
-    min-height: 100px;
-    margin: 0;
-    font-size: 18px;
+  background-color: #000201;
+  color: #0378A6;
+  min-height: 130px;
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 300; 
+
 }
 
 .contact-button {
-    width: 130px;
-    border: 0;
-    height: 40px;
-    margin: 40px;
-    text-align: center;
-    font-size: 18px;
-    color: #fafafa;
-    background: #474b4f;
-    transition: background 0.5s ease-in-out;
-    -moz-transition: background 0.5s ease-in-out;
-    -webkit-transition: background 0.5s ease-in-out;
-    -o-transition: background 0.5s ease-in-out;
+  width: 130px;
+  border: 0;
+  height: 40px;
+  margin: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #fafafa;
+  background: #474b4f;
+  transition: background 0.5s ease-in-out;
+  -moz-transition: background 0.5s ease-in-out;
+  -webkit-transition: background 0.5s ease-in-out;
+  -o-transition: background 0.5s ease-in-out;
 }
 
 .contact-button:hover {
-    background-color: #86c232
-}
-
-.footer-headings {
-    margin-top: 15px;
+  background-color: #04C4D9;
 }
 
 .personal-info-text {
-    margin: 0;
-    font-size: 14px;
-    font-weight: 200;
-}
-
-.footer-headings p {
-    margin: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 200;
 }
 
 .cv-link {
-    margin-left: 5px;
-    font-size: 16px;
-    color: #86c232;
-    transition: color 0.5s ease-in-out;
-    -moz-transition: color 0.5s ease-in-out;
-    -webkit-transition: color 0.5s ease-in-out;
-    -o-transition: color 0.5s ease-in-out;
+  margin-left: 5px;
+  font-size: 16px;
+  color: #0378A6;
+  transition: color 0.5s ease-in-out;
+  -moz-transition: color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
+  -o-transition: color 0.5s ease-in-out;
 }
 
 .cv-link:hover {
-    color: #61842f;
+  color: #025E73;
+  cursor: pointer;
+}
+
+.social-links a {
+  color: #474b4f;
+  font-size: 35px;
+  padding: 5px;
+  transition: color 0.5s ease-in-out;
+  -moz-transition: color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
+  -o-transition: color 0.5s ease-in-out;
+}
+
+.social-links a:hover {
+  color: #04C4D9;
+}
+
+/*-----------------Media Queries-------------------*/
+
+@media(max-width: 575px) {
+  .contact-button {
+    margin: 10px 0px 0px 0px;
+  }
 }
