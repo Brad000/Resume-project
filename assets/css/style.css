@@ -23,8 +23,6 @@
   padding: 10px;
 }
 
-/*-------------Text/Padding/Margin------------*/
-
 #nav-text {
   font-family: 'Red Hat Display', sans-serif;
   font-size: 12px;
@@ -45,11 +43,6 @@
 
 #nav-link {
   text-decoration: none;
-}
-
-.sub-headings {
-  padding-top: 10px;
-  text-decoration: underline;
 }
 
 .landing-name {
@@ -112,13 +105,37 @@
 
 /*-------------------Skills-------------------*/
 
+.skills-container {
+  background-color: #fafafa
+}
+
 .skills-text {
   font-family: 'Red Hat Display', sans-serif;
   color: #0378a6;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.skills-container {
-  background-color: #fafafa
+.skills-heading {
+  text-align: left;
+  color: #0378a6;
+  font-size: 25px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.fa-desktop,
+.fa-cog,
+.fa-book {
+  padding-right: 10px;
+  font-size: 28px;
+}
+ 
+.skills-para {
+  padding-bottom: 30px;  
+  font-size: 16px;
+  line-height: 1.8em;
+  font-weight: 400;
 }
 
 @keyframes load{
@@ -178,7 +195,7 @@
 }
 
 .bar.learning::before{
-  width: calc(30% - 10px);
+  width: calc(20% - 10px);
 }
 .bar.basic::before{
   width: calc(40% - 10px);
@@ -193,20 +210,91 @@
   width: calc(90% - 10px);
 }
 
-.skills-heading {
-  text-align: left;
-  color: #0378a6;
-  font-size: 25px;
-  font-weight: 500;
+/*---------------Work History------------------*/
+
+.work-history-container {
+  background-color: #fafafa
 }
 
-.fa-desktop,
-.fa-cog,
-.fa-book {
-  padding-right: 10px;
-  padding-left: 20px;
-  font-size: 28px;
+.work-headings {
+  font-family: 'Red Hat Display', sans-serif;
+  color: #0378a6;
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #0378a6;
+    border-left: 3px solid;
+    margin-left: 30px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 14px;
+    height: 14px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -8px;
+    border-radius: 12px;
+    content: ' ';
+    background: #0378a6;
+}
+
+.history-items {
+    margin-bottom: 55px;
+}
+
+#work-link {
+  color: #0378a6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.why-web-container {
+  background-color: #0378A6; 
+}
+
+.why-headings {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #fafafa;
+}
+
+
+
+
 
 /*-------------------Footer-------------------*/
 
@@ -219,6 +307,11 @@ footer {
   font-family: 'Red Hat Display', sans-serif;
   font-weight: 300;
 
+}
+
+.sub-headings {
+  padding-top: 10px;
+  text-decoration: underline;
 }
 
 .contact-button {
