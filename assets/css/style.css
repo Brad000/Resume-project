@@ -325,47 +325,16 @@
   padding-bottom: 40px;
 }
 
-.project-div {
-  background-color: #000201;
+.card-deck {
+  margin: 0;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.card {
-  font-family: 'Red Hat Display', sans-serif;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  background-color: transparent;
-  border: 2px solid #04C4D9;
-  color: #0378a6;
-  opacity: 0.4;
-  transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -webkit-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
+.card-img-top {
+  max-height: 190px;
 }
-
-.card:hover {
-  opacity: 1;
-}
-
-#card-button {
-  background-color: #000201;
-  color: #0378a6;
-  border: solid 1px #0378a6;
-  transition: background color 3s ease-in-out;
-  -moz-transition: background color 3s ease-in-out;
-  -webkit-transition: background color 3s ease-in-out;
-  -o-transition: background color 3s ease-in-out;
-}
-
-#card-button:hover {
-  background: #0378a6;
-  color: #000201;
-}
-
-
-
-
 
 /*-------------------Footer-------------------*/
 
@@ -494,3 +463,7 @@ footer {
     font-size: 40px;
   }
 }
+
+  
+
+
