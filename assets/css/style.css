@@ -330,11 +330,76 @@
   padding-bottom: 20px;
   padding-left: 10px;
   padding-right: 10px;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #0378a6;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card-text {
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .card-img-top {
   max-height: 190px;
 }
+
+.project-bg {
+  background-color: #000201;
+}
+
+.card {
+  background-color: transparent;
+  border: 3px solid #04c4d9;
+  opacity: 0.9;
+   transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+}
+
+.card-button {
+  background-color: #000201;
+  color: #04c4d9;
+  font-weight: 500;
+  border: 2px solid #04c4d9;
+}
+
+.card-button:hover {
+  background-color: #04c4d9;
+  color: #000201;
+  border: 2px solid #000201;
+}
+
+.card:hover {
+  opacity: 1;
+}
+
+/*-------------------Contact Me-------------------*/
+
+.contact-heading {
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+  font-weight: 600;
+  color: #0378a6;
+  background-color: #000201;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
+#contact-home {
+  position: absolute;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+
 
 /*-------------------Footer-------------------*/
 
@@ -464,6 +529,15 @@ footer {
   }
 }
 
-  
+@media(min-width: 1024px) {
+  .card-img-top {
+    min-height: 270px;
+  }
+}
 
+@media(min-width: 1025px) {
+  .card {
+    opacity: 0.3;
+  }
+}
 
