@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +11,46 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <title>Bradley Best - Full Stack Web Developer</title>
 </head>
+
 <body>
-    <div class="row">
+    <!--------------------------Contact Me------------------------------->
+
+    <div class="row no-gutters">
         <div class="col-12">
-            <a id="contact-home" href="index.html"><i class="fa fa-home"></i></a><h1 class="contact-heading">Contact Me</h1>
+            <a id="contact-home" href="index.html"><i class="fa fa-home"></i></a>
+            <h2 class="contact-heading">Contact Me</h2>
         </div>
     </div>
+    <div class="row no-gutters">
+        <div class="col-12">
+            <h4 class="contact-sub">Want to Work Together?</h4>
+            <p class="contact-para">Are you a recruiter looking for more information or a fellow developer looking to collabotate on a project or create one together? if so please leave your details and a short message below.</p>
+        </div>
+    </div>
+    <form class="form-style">
+        <div class="form-group">
+            <label for="Name">Name:</label>
+            <input type="text" class="form-control" id="Name" aria-describedby="nameHelp" placeholder="Enter Name" required>
+        </div>
+        <div class="form-group">
+            <label for="Email1">Email Address:</label>
+            <input type="email" class="form-control" id="Email" placeholder="Enter Email" required>
+        </div>
+        <div class="form-group">
+            <label for="Messagearea">Message:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Leave Your Message Here!" required></textarea>
+        </div>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="Check-collaborator">
+            <label class="form-check-label" for="Check-collaborator">Collaborator</label>
+
+        </div>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="Check-recruiter">
+            <label class="form-check-label" for="Check-recruiter">Recruiter</label>
+        </div>
+        <button type="submit" class="btn btn-primary form-button">Get In Touch</button>
+    </form>
 </body>
+
 </html>
