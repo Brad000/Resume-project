@@ -1,14 +1,14 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# Bradley Best Resume Page
+Milestone Project One: User Centric Frontend Development - Code Institute
+
+This is my resume web page, it offer's potential employers or fellow developers wanting to collaborate a chance to view my skills, see past projects and learn more about me, whilst also offering a central contact space for anyone wanting to send me a message.
+
+### Demo
+---
+A live demo can be found <a href="https://brad000.github.io/Resume-project/">here.</a>
+
+### UX
+---
+My goal for the design was to create a modern but professional feel, i choose the blue/black colour scheme as i felt this achieved that. I also wanted to showcase information in a clear and concise manner with definitive breaks in the content to allow users to know exactly what information they are viewing.
 
 
-Hi there! Welcome to AWS Cloud9!
-
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
