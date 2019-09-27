@@ -603,5 +603,6 @@ footer {
   .form-style {
     padding-left: 150px;
     padding-right: 150px;
+    height: 75vh;
   }
 }
